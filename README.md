@@ -6,7 +6,7 @@
 
 ## Install
 
-Putty settings are stored in the Microsoft Windows Registry.
+PuTTY settings are stored in the Microsoft Windows Registry.
 
 [Dracula](https://draculatheme.com/) settings for [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
 settings are provided as .reg files for importing into the registry.
@@ -17,11 +17,13 @@ To install:
   2. In File Explorer (Windows Explorer), locate the file, then double-click it.
   3. Confirm the Registry Editor prompt to import the settings.
 
-A new saved session named "Dracula" will now be available in PuTTY. It inherits your existing "Default Settings" with Dracula color overrides.
+A saved session named "Dracula" will now be available in PuTTY. It applies Dracula colors; other options remain as in your current "Default Settings".
 
 Load the "Dracula" session and use PuTTY as usual.
 
-To make Dracula the default for new sessions: Load "Dracula", select "Default Settings" in Saved Sessions, then click Save. New sessions will now use Dracula colors by default.
+To make Dracula the default for new sessions: Load "Dracula", select "Default Settings" in Saved Sessions, then click Save. New sessions will now use Dracula colors by default. Consider saving Default settings under a new backup name before applying this step.
+
+Optional: To remove the "Dracula" saved session later, open PuTTY, select "Dracula" under Saved Sessions, click Delete, and (if you had made it the default) load backup settings and Save "Default Settings" again.
 
 ## Team
 
