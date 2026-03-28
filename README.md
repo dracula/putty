@@ -29,6 +29,11 @@ Optional: To remove the "Dracula" saved session later, open PuTTY, select "Dracu
 
 NOTE Alucard (Dracula light) theme is also included, see alucard.reg.
 
+## Hacking
+
+Please try and follow https://www.conventionalcommits.org/en/v1.0.0/#summary
+when proposing changes.
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/putty/graphs/contributors).
