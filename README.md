@@ -2,7 +2,7 @@
 
 > A dark theme for [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/).
 
-![Screenshot](./screenshot.png)
+![Dracula Putty Screenshot](./screenshot.png)
 
 ## Install
 
@@ -26,6 +26,8 @@ Load the "Dracula" session and use PuTTY as usual.
 To make Dracula the default for new sessions: load "Dracula", select "Default Settings" under "Saved Sessions", then click Save. New sessions will use Dracula colors by default. Tip: create a backup of your current defaults first (e.g., save as "Default Settings (backup)").
 
 Optional: To remove the "Dracula" saved session later, open PuTTY, select "Dracula" under Saved Sessions, click Delete, and (if you had made it the default) load backup settings and Save "Default Settings" again.
+
+NOTE Alucard (Dracula light) theme is also included, see alucard.reg.
 
 ## Team
 

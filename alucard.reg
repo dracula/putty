@@ -1,0 +1,162 @@
+Windows Registry Editor Version 5.00
+
+; Putty Theme Alucard
+; Scheme author: clach04
+; scheme-comment:  Based on https://draculatheme.com/spec#ansi-color-palette Alucard (Dracula light variant)
+; scheme-comment1: Straight mapping of ANSI values from specification 2026-03-27
+; scheme-comment2: Reference https://github.com/dracula/dracula-theme
+; scheme-comment3: Reference https://github.com/dracula/draculatheme.com/blob/main/content/spec.mdx
+; scheme-comment4: Unused: Selection : #CFCFDE - Official Alucard selection is not a config option for Putty
+; scheme-comment5: Unused: Orange : #A34D14 - Official Alucard orange not part of the ANSI 16-color palette
+; scheme-comment6: Source for https://github.com/clach04/dracula_putty
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Alucard]
+
+; Default Foreground
+;  Colour0-comment: Default Foreground
+;     Colour0-note: Alucard Foreground
+;          Colour0: #1f1f1f
+"Colour0"="31,31,31"
+
+; Default Bold Foreground  -- equals to non-bold
+;  Colour1-comment: Default Bold Foreground  -- equals to non-bold
+;     Colour1-note: Alucard Foreground
+;          Colour1: #1f1f1f
+"Colour1"="31,31,31"
+
+; Default Background
+;  Colour2-comment: Default Background
+;     Colour2-note: Alucard Background
+;          Colour2: #fffbeb
+"Colour2"="255,251,235"
+
+; Default Bold Background  -- equals to non-bold
+;  Colour3-comment: Default Bold Background  -- equals to non-bold
+;     Colour3-note:
+;          Colour3: #fffbeb
+"Colour3"="255,251,235"
+
+; Cursor Text -- equals to default background
+;  Colour4-comment: Cursor Text -- equals to default background
+;     Colour4-note:
+;          Colour4: #fffbeb
+"Colour4"="255,251,235"
+
+; Cursor Colour -- equals to default foreground
+;  Colour5-comment: Cursor Colour -- equals to default foreground
+;     Colour5-note: Alucard Foreground
+;          Colour5: #1f1f1f
+"Colour5"="31,31,31"
+
+; ANSI Black
+; 30m / 40m
+;  Colour6-comment: ANSI Black - 30m / 40m
+;     Colour6-note:
+;          Colour6: #fffbeb
+"Colour6"="255,251,235"
+
+; ANSI Black Bright
+; 1;30m
+;  Colour7-comment: ANSI Black Bright - 1;30m
+;     Colour7-note: Same as Alucard Current Line
+;          Colour7: #6c664b
+"Colour7"="108,102,75"
+
+; ANSI Red
+; 31m / 41m
+;  Colour8-comment: ANSI Red - 31m / 41m
+;     Colour8-note: Alucard Red
+;          Colour8: #cb3a2a
+"Colour8"="203,58,42"
+
+; ANSI Red Bright
+; 1;31m
+;  Colour9-comment: ANSI Red Bright - 1;31m
+;     Colour9-note:
+;          Colour9: #d74c3d
+"Colour9"="215,76,61"
+
+; ANSI Green
+; 32m / 42m
+; Colour10-comment: ANSI Green - 32m / 42m
+;    Colour10-note: Alucard Green
+;         Colour10: #14710a
+"Colour10"="20,113,10"
+
+; ANSI Green Bright
+; 1;32m
+; Colour11-comment: ANSI Green Bright - 1;32m
+;    Colour11-note:
+;         Colour11: #198d0c
+"Colour11"="25,141,12"
+
+; ANSI Yellow
+; 33m / 43m
+; Colour12-comment: ANSI Yellow - 33m / 43m
+;    Colour12-note: Alucard Yellow
+;         Colour12: #846e15
+"Colour12"="132,110,21"
+
+; ANSI Yellow Bright
+; 1;33m
+; Colour13-comment: ANSI Yellow Bright - 1;33m
+;    Colour13-note:
+;         Colour13: #9e841a
+"Colour13"="158,132,26"
+
+; ANSI Blue
+; 34m / 44m
+; Colour14-comment: ANSI Blue - 34m / 44m
+;    Colour14-note: Alucard Purple
+;         Colour14: #644ac9
+"Colour14"="100,74,201"
+
+; ANSI Blue Bright
+; 1;34m
+; Colour15-comment: ANSI Blue Bright - 1;34m
+;    Colour15-note:
+;         Colour15: #7862d0
+"Colour15"="120,98,208"
+
+; ANSI Magenta
+; 35m / 45m
+; Colour16-comment: ANSI Magenta - 35m / 45m
+;    Colour16-note: Alucard Pink
+;         Colour16: #a3144d
+"Colour16"="163,20,77"
+
+; ANSI Magenta Bright
+; 1;35m
+; Colour17-comment: ANSI Magenta Bright - 1;35m
+;    Colour17-note:
+;         Colour17: #bf185a
+"Colour17"="191,24,90"
+
+; ANSI Cyan
+; 36m / 46m
+; Colour18-comment: ANSI Cyan - 36m / 46m
+;    Colour18-note: Alucard Cyan
+;         Colour18: #036a96
+"Colour18"="3,106,150"
+
+; ANSI Cyan Bright
+; 1;36m
+; Colour19-comment: ANSI Cyan Bright - 1;36m
+;    Colour19-note:
+;         Colour19: #047fb4
+"Colour19"="4,127,180"
+
+; ANSI White
+; 37m / 47m
+; Colour20-comment: ANSI White - 37m / 47m
+;    Colour20-note: Alucard Foreground
+;         Colour20: #1f1f1f
+"Colour20"="31,31,31"
+
+; ANSI White Bright
+; 1;37m
+; Colour21-comment: ANSI White Bright - 1;37m
+;    Colour21-note:
+;         Colour21: #2c2b31
+"Colour21"="44,43,49"
+
+; {{! Theme rendered with https://github.com/clach04/terminal_style_toolkit }}
